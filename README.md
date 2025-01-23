@@ -1,9 +1,9 @@
 # NLP
 Natural language processing
 ## 1. Problem Introduction
-	This Kaggle competition involved the classification of text comments into seven predefined categories like toxicity, severe toxicity, obscene, threat, insult, identity attack and sexual explicit. 	The task was done without the use of transformers. Thus, the participants needed to create and train models with other NLP techniques that would handle the dataset efficiently.
+This Kaggle competition involved the classification of text comments into seven predefined categories like toxicity, severe toxicity, obscene, threat, insult, identity attack and sexual explicit. The task was done without the use of transformers. Thus, the participants needed to create and train models with other NLP techniques that would handle the dataset efficiently.
 ## 2. Model Architecture
-	The architecture of the model was designed as a hybrid approach.
+The architecture of the model was designed as a hybrid approach.
 Embedding Layer. It changes the tokenized words into their dense vector representations.
 BiLSTM Layer. A bidirectional LSTM network to model both forward and backward contextual dependencies in the text. 
 GRU Layer. A Gated Recurrent Unit layer that reduces computational overhead while retaining sequence-learning capability. 
